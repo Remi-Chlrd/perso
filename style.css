@@ -1,0 +1,350 @@
+```css
+/* =========================
+   Découvre Amboise
+   Style mobile
+========================= */
+
+
+*{
+
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    font-family:Arial, sans-serif;
+
+    background:#f4f7f9;
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+
+header{
+
+    background:#1565c0;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+}
+
+
+header h1{
+
+    margin:0;
+
+    font-size:22px;
+
+}
+
+
+
+main{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+}
+
+
+
+
+
+/* =========================
+   Ecran START
+========================= */
+
+
+.startScreen{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+
+.startScreen h2{
+
+    font-size:28px;
+
+}
+
+
+.startScreen p{
+
+    font-size:18px;
+
+    line-height:1.5;
+
+}
+
+
+
+#startButton{
+
+    margin-top:30px;
+
+    padding:16px 45px;
+
+    font-size:22px;
+
+    border:none;
+
+    border-radius:35px;
+
+    background:#43a047;
+
+    color:white;
+
+}
+
+
+
+
+
+/* =========================
+   Chat
+========================= */
+
+
+.chat{
+
+    flex:1;
+
+    padding:15px;
+
+    overflow-y:auto;
+
+}
+
+
+
+.bot,
+.user{
+
+
+    max-width:85%;
+
+    padding:12px;
+
+    margin:8px 0;
+
+    border-radius:15px;
+
+    line-height:1.4;
+
+}
+
+
+
+.bot{
+
+    background:#e3f2fd;
+
+    align-self:flex-start;
+
+}
+
+
+
+.user{
+
+    background:#c8e6c9;
+
+    margin-left:auto;
+
+    text-align:right;
+
+}
+
+
+
+
+
+/* =========================
+   Images indices
+========================= */
+
+
+.imageZone{
+
+    text-align:center;
+
+    padding:10px;
+
+}
+
+
+.imageZone img{
+
+    max-width:90%;
+
+    max-height:250px;
+
+    border-radius:15px;
+
+}
+
+
+
+
+
+/* =========================
+   Zone saisie
+========================= */
+
+
+.inputZone{
+
+    display:flex;
+
+    padding:10px;
+
+    background:white;
+
+    border-top:1px solid #ddd;
+
+}
+
+
+
+#message{
+
+    flex:1;
+
+    padding:14px;
+
+    font-size:16px;
+
+    border:1px solid #aaa;
+
+    border-radius:25px;
+
+}
+
+
+
+#send{
+
+    margin-left:8px;
+
+    padding:12px 18px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#1565c0;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+
+
+
+
+/* =========================
+   Boutons jeu
+========================= */
+
+
+.nextButton{
+
+    margin:10px auto;
+
+    display:block;
+
+    padding:14px 25px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#43a047;
+
+    color:white;
+
+    font-size:17px;
+
+}
+
+
+
+footer{
+
+    background:white;
+
+    padding:5px;
+
+}
+
+
+
+/* =========================
+   Petits écrans
+========================= */
+
+
+@media(max-width:400px){
+
+
+    header h1{
+
+        font-size:19px;
+
+    }
+
+
+    .bot,
+    .user{
+
+        max-width:95%;
+
+        font-size:15px;
+
+    }
+
+
+    #send{
+
+        padding:10px;
+
+    }
+
+}
+```
